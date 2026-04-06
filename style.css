@@ -1,0 +1,95 @@
+/* background toàn trang */
+body{
+font-family: Arial, sans-serif;
+text-align: center;
+background: linear-gradient(135deg,#4facfe,#00f2fe);
+height:100vh;
+margin:0;
+color:white;
+}
+
+/* tiêu đề */
+h1{
+margin-top:40px;
+font-size:40px;
+text-shadow:0px 4px 10px rgba(0,0,0,0.4);
+}
+
+/* khung game */
+#game{
+background:white;
+color:black;
+width:450px;
+margin:40px auto;
+padding:30px;
+border-radius:20px;
+box-shadow:0 10px 30px rgba(0,0,0,0.3);
+}
+
+/* khung menu */
+#menu{
+margin-top:50px;
+}
+
+/* nút chung */
+button{
+padding:12px 25px;
+margin:10px;
+font-size:18px;
+border:none;
+border-radius:12px;
+cursor:pointer;
+transition:0.2s;
+box-shadow:0 6px 15px rgba(0,0,0,0.25);
+}
+
+/* màu nút start */
+#menu button{
+background:linear-gradient(135deg,#ff7b00,#ffb347);
+color:white;
+font-weight:bold;
+}
+
+/* hover */
+button:hover{
+transform:scale(1.08);
+box-shadow:0 10px 25px rgba(0,0,0,0.35);
+}
+
+/* nút đáp án */
+.ans{
+display:block;
+width:80%;
+margin:10px auto;
+background:linear-gradient(135deg,#6a11cb,#2575fc);
+color:white;
+font-size:17px;
+}
+
+/* hover đáp án */
+.ans:hover{
+background:linear-gradient(135deg,#2575fc,#6a11cb);
+}
+
+/* thanh thời gian */
+#timebar{
+width:300px;
+height:18px;
+background:#ddd;
+margin:10px auto;
+border-radius:10px;
+overflow:hidden;
+}
+
+#time{
+height:18px;
+background:linear-gradient(90deg,#00ff87,#60efff);
+width:300px;
+}
+
+/* điểm */
+#score{
+font-size:20px;
+margin-top:15px;
+font-weight:bold;
+}
